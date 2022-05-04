@@ -12,8 +12,8 @@
 //  8. Должна быть хотя бы одна @
 //  9. Строка не должна быть пустой
 
-//let validstr = prompt('Input from 5 to 64 symbols. Should include at least one uppercase letter, one number and one @');
-let validStr = 'Input from 5 to 64 symbols. Should include at least one uppercase letter, one number and one @';
+//let validstr = prompt('Input from 5 to 64 symbols (letters, numbers and @ symbols only allowed). Should include at least one uppercase letter, one number and one @');
+let validStr = 'Input from 5 to 64 symbols (letters, numbers and @ symbols only allowed). Should include at least one uppercase letter, one number and one @';
 
 let result = '';
 
@@ -26,7 +26,7 @@ function fcheck() {
     flength(validStr);
     if (result != 'Min length is 5 symbols. The string is empty.') {
         finvalid(validStr);
-        fuppercase(validStr);
+        fletter(validStr);
         fnumber(validStr);
         fatsymbol(validStr);
     }
@@ -51,9 +51,11 @@ function finvalid() {
     }
 }
 
-function fuppercase() {
-    if (/^[^A-Z]+$/.test(validStr)) {
+function fletter() {
+    if (/^(?=.*[a-z]+)[^A-Z]+$/.test(validStr)) {
         result += 'No one uppercase letter was detected.\n';
+    } else if (/^[^A-Za-z]+$/.test(validStr)) {
+        result += 'No one letter was detected.\n';
     }
 }
 
