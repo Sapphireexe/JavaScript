@@ -13,14 +13,13 @@
 //  9. Строка не должна быть пустой
 
 //let validStr = prompt('Input from 5 to 64 symbols (letters, numbers and @ symbols only allowed). Should include at least one uppercase letter, one number and one @');
-let validStr = 'Input from 5 to 64 symbols (letters, numbers and @ symbols only allowed). Should include at least one uppercase letter, one number and one @';
+const validStr = 'Input from 5 to 64 symbols (letters, numbers and @ symbols only allowed). Should include at least one uppercase letter, one number and one @';
 
 let result = '';
 
 fcheck(validStr);
 
-console.log('The string is ==>' + validStr + '<==')
-console.log(result);
+console.log('The string is ==>' + validStr + '<==\n' + result)
 
 function fcheck() {
     flength(validStr);

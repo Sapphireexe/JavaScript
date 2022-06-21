@@ -13,7 +13,7 @@
 //  9. Строка не должна быть пустой
 
 //let validstr = prompt('Input from 5 to 64 symbols. Should include at least one uppercase letter, one number and one @'); // for input from prompt window
-let validStr = 'Input from 5 to 64 symbols. Should include at least one uppercase letter, one number and one @'; // for input from code
+let validStr = '  Input from 5 to 64 symbols. Should include   at least one uppercase letter, one number and one @'; // for input from code
 
 console.log(vLength(validStr));
 
