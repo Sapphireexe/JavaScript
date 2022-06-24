@@ -19,7 +19,7 @@ let result = '';
 
 fcheck(validStr);
 
-console.log('The string is ==>' + validStr + '<==\n' + result)
+console.log('The string is ==>', validStr, '<==\n', result)
 
 function fcheck() {
     flength(validStr);
@@ -36,9 +36,9 @@ function fcheck() {
 
 function flength() {
     if (/^.{1,4}$/.test(validStr)) {
-        result = 'Min length is 5 symbols. Current length is ' + validStr.length + '.\n';
+        result = 'Min length is 5 symbols. Current length is ', validStr.length, '.\n';
     } else if (/^.{65,}$/.test(validStr)) {
-        result = 'Max length is 64 symbols. Current length is ' + validStr.length + '.\n';
+        result = 'Max length is 64 symbols. Current length is ', validStr.length, '.\n';
     } else if (/^$/.test(validStr)) {
         result = 'Min length is 5 symbols. The string is empty.';
     }
