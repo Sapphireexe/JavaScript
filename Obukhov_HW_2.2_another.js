@@ -36,7 +36,7 @@ function fcheck() {
 
 function flength() {
     if (/^.{1,4}$/.test(validStr)) {
-        result = 'Min length is 5 symbols. Current length is ', validStr.length, '.\n';
+        return 'Min length is 5 symbols. Current length is ', validStr.length, '.\n';
     } else if (/^.{65,}$/.test(validStr)) {
         result = 'Max length is 64 symbols. Current length is ', validStr.length, '.\n';
     } else if (/^$/.test(validStr)) {
