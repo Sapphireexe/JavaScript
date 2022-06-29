@@ -19,7 +19,7 @@ let result = [];
 
 fcheck(VALIDSTR);
 
-console.log('The string is ==>', VALIDSTR, '<==\n', result)
+console.log('The string is ==>', VALIDSTR, '<==\n'result)
 
 function fcheck() {
     flength(validStr);
