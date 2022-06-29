@@ -45,27 +45,27 @@ function flength() {
 }
 
 function finvalid() {
-    if (!(/^[A-Za-z0-9@]+$/.test(validStr))) {
-        result += 'The string contains invalid symbols: ' + validStr.split(/[A-Za-z0-9@]*/) + '.\n';
+    if (!(/^[A-Za-z0-9@]+$/.test(VALIDSTR))) {
+        result += 'The string contains invalid symbols: ' + VALIDSTR.split(/[A-Za-z0-9@]*/) + '.\n';
     }
 }
 
 function fletter() {
-    if (/^(?=.*[a-z]+)[^A-Z]+$/.test(validStr)) {
+    if (/^(?=.*[a-z]+)[^A-Z]+$/.test(VALIDSTR)) {
         result += 'No one uppercase letter was detected.\n';
-    } else if (/^[^A-Za-z]+$/.test(validStr)) {
+    } else if (/^[^A-Za-z]+$/.test(VALIDSTR)) {
         result += 'No one letter was detected.\n';
     }
 }
 
 function fnumber() {
-    if (/^[^0-9]+$/.test(validStr)) {
+    if (/^[^0-9]+$/.test(VALIDSTR)) {
         result += 'No one numeric symbol was detected.\n';
     }
 }
 
 function fatsymbol() {
-    if (/^[^@]+$/.test(validStr)) {
+    if (/^[^@]+$/.test(VALIDSTR)) {
         result += 'No one "@" symbol was detected.';
     }
 }
