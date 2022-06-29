@@ -17,9 +17,9 @@ const validStr = 'Input from 5 to 64 symbols (letters, numbers and @ symbols onl
 
 let result = [];
 
-fcheck(validStr);
+fcheck(VALIDSTR);
 
-console.log('The string is ==>', validStr, '<==\n', result)
+console.log('The string is ==>', VALIDSTR, '<==\n', result)
 
 function fcheck() {
     flength(validStr);
