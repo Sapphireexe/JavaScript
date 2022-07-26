@@ -4,7 +4,7 @@ console.log(item_1); // 3. Вывести в консоль item_1.
 let item_2; // 4. Создать переменную “item_2”.
 item_2 = 3; // 5. Присвоить переменной item_2 цифру 3.
 console.log(item_2); // 6. Вывести в консоль item_2.
-let item_3; // 7. Создать переменную “item_3”
+let item_3; // 7. Создать переменную “item_3”.
 item_3 = item_1 + item_2; // 8. Присвоить переменной item_3 сложение item_1 и item_2.
 console.log(item_3); // 9. Вывести в консоль item_3.
 let item_4; // 10. Создать переменную “item_4”
