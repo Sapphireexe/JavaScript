@@ -13,7 +13,7 @@ console.log(item_4); // 12. Вывести в консоль item_4.
 console.log(item_3 + item_4); // 13. Вывести в консоль сложение item_3 и item_4.
 console.log(item_3 * item_4); // 14. Вывести в консоль умножение item_3 и item_4.
 let item_5; // 15. Создать переменную “item_5”.
-item_5 = item_3; // 16. Присвоить переменной item_5 переменную item_3
+item_5 = item_3; // 16. Присвоить переменной item_5 переменную item_3.
 let item_6; // 17. Создать переменную item_6.
 let item_6_type; // 18. Создать переменную item_6_type
 item_6 = 15; // 19. Присвоить переменной item_6 значение 15
