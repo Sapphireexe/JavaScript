@@ -25,7 +25,7 @@ item_7_type = typeof item_7; // 24. Присвоить переменной item
 console.log('item_7 == ' + item_7 + ', item_7_type == ' + item_7_type); // 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type —— .
 let age_1 = 10; // 26. Создать переменную “age_1” и присвоить ей значение 10.
 let age_2 = 18; // 27. Создать переменную “age_2” и присвоить ей значение 18.
-let age_3 = 60; // 28. Создать переменную “age_3” и присвоить ей значение 60
+let age_3 = 60; // 28. Создать переменную “age_3” и присвоить ей значение 60.
 // 29. Создать if в котором будите проверять значение переменной age_1
 if (age_1 < age_2) {
     console.log('You don’t have access cause your age is ' + age_1 + ' It’s less then '); // 30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
