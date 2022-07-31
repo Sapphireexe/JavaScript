@@ -16,7 +16,7 @@ let item_5; // 15. Создать переменную “item_5”.
 item_5 = item_3; // 16. Присвоить переменной item_5 переменную item_3.
 let item_6; // 17. Создать переменную item_6.
 let item_6_type; // 18. Создать переменную item_6_type.
-item_6 = 15; // 19. Присвоить переменной item_6 значение 15
+item_6 = 15; // 19. Присвоить переменной item_6 значение 15.
 item_6_type = typeof item_6; // 20. Присвоить переменной item_6_type тип переменной item_6
 console.log('item_6 == ' + item_6 + ', item_6_type == ' + item_6_type); // 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——  
 let item_7 = String(item_6); // 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
