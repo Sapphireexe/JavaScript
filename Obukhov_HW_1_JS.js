@@ -31,7 +31,7 @@ if (age_1 < age_2) {
     console.log('You don’t have access cause your age is ' + age_1 + ' It’s less then '); // 30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”.
 }
 else if (age_1 >= age_2 && age_1 < age_3) {
-    console.log('Welcome  !'); // 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
+    console.log('Welcome  !'); // 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”.
 }
 else if (age_1 > age_3) {
     console.log('Keep calm and look Culture channel'); // 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
