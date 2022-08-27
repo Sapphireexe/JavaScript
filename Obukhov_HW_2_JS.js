@@ -9,7 +9,7 @@
 //  5. В строке должны быть буквы.
 //  6. Должна быть хотя бы одна буква в верхнем регистре.
 //  7. Должна быть хотя бы одна цифра.
-//  8. Должна быть хотя бы одна @
+//  8. Должна быть хотя бы одна @.
 //  9. Строка не должна быть пустой
 
 //let validstr = prompt('Input from 5 to 64 symbols. Should include at least one uppercase letter, one number and one @'); // for input from prompt window
